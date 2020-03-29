@@ -1,0 +1,27 @@
+- title: More Jess - ETA
+  date: 2014-01-01
+  release_type: Album
+  image: "./images/more.jpg"
+  links:
+    - name: Spotify
+      url: https://open.spotify.com/track/75KhlhWc1rK8HFcTgWoFD5?si=I34F5wexSNy5cNx8ezHnvQ
+
+- title: Winner - Txmo
+  date: 2018-01-01
+  release_type: Album
+  image: "./images/winner.jpg"
+  links:
+    - name: Spotify
+      url: https://open.spotify.com/album/03k5YqysqVGtrFBdf8VziX?si=guXBjxYEQDaM2ByYPXD7Dw
+
+- title: Ride With U - Remy Baggins
+  date: 2019-01-01
+  release_type: Album
+  image: "./images/ride.jpg"
+  links:
+    - name: Spotify
+      url: https://open.spotify.com/album/7I9xFYgxF2osTILGTeysMR?si=bl_kHuHuSXqb6FWucKwlIg
+
+
+
+      

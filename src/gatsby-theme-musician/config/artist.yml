@@ -1,0 +1,22 @@
+artist:
+  name: Clandestine
+  tagline: Clandestine is a Music sharing app for anonymous sharing of music recommendations with friends and competing for whose recommendations get the most repeat listens
+  # seo_title:
+  # seo_description:
+  # contact_twitter_username:
+  # contact_phone: 
+  # contact_email: 
+
+social:
+  - name: Facebook
+    url: https://facebook.com
+  - name: Instagram
+    url: https://instagram.com
+  - name: Twitter
+    url: https://twitter.com
+  - name: Youtube
+    url: https://youtube.com
+  - name: Spotify
+    url: https://spotify.com
+
+site_language: en
