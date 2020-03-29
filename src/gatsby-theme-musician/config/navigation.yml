@@ -1,0 +1,11 @@
+navigation:
+  - text: Log In/Sign Up
+    url: "#releases"
+  - text: Trending
+    url: "#releases"
+  - text: Global Leaderboard
+    url: "#releases"
+  - text: About
+    url: "../about/"
+  - text: Contact
+    url: "../contact/"
