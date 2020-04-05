@@ -1,6 +1,6 @@
 navigation:
   - text: Log In/Sign Up
-    url: "#releases"
+    url: "../login/"
   - text: Trending
     url: "#releases"
   - text: Global Leaderboard
