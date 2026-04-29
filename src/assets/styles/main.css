@@ -58,3 +58,104 @@ label {
 	display: block;
 	width: 100%;
 }
+
+.btn-secondary {
+	color: #fff;
+	background-color: #6c757d;
+	border-color: #6c757d;
+}
+
+.btn:disabled {
+	opacity: 0.65;
+	cursor: not-allowed;
+}
+
+/* Auth component */
+
+.auth-container {
+	max-width: 400px;
+	margin: 0 auto;
+	padding: 1.5rem;
+}
+
+.auth-tabs {
+	display: flex;
+	margin-bottom: 1.5rem;
+	border-bottom: 2px solid #dee2e6;
+}
+
+.auth-tab {
+	background: none;
+	border: none;
+	padding: .5rem 1rem;
+	font-size: 1rem;
+	cursor: pointer;
+	color: #6c757d;
+	margin-bottom: -2px;
+	border-bottom: 2px solid transparent;
+}
+
+.auth-tab.active {
+	color: #007bff;
+	border-bottom-color: #007bff;
+}
+
+.auth-error {
+	background: #f8d7da;
+	color: #721c24;
+	border: 1px solid #f5c6cb;
+	border-radius: .25rem;
+	padding: .5rem .75rem;
+	margin-bottom: 1rem;
+	font-size: .9rem;
+}
+
+.auth-divider {
+	text-align: center;
+	margin: 1.25rem 0;
+	position: relative;
+}
+
+.auth-divider::before {
+	content: '';
+	position: absolute;
+	top: 50%;
+	left: 0;
+	right: 0;
+	height: 1px;
+	background: #dee2e6;
+}
+
+.auth-divider span {
+	position: relative;
+	background: #fff;
+	padding: 0 .75rem;
+	color: #6c757d;
+	font-size: .875rem;
+}
+
+.btn-oauth {
+	text-decoration: none;
+	margin-bottom: .75rem;
+	font-weight: 500;
+}
+
+.btn-google {
+	color: #333;
+	background-color: #fff;
+	border: 1px solid #dadce0;
+}
+
+.btn-google:hover {
+	background-color: #f8f9fa;
+}
+
+.btn-spotify {
+	color: #fff;
+	background-color: #1db954;
+	border-color: #1db954;
+}
+
+.btn-spotify:hover {
+	background-color: #17a349;
+}
