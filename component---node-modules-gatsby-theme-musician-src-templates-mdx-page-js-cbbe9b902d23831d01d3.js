@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[7],{"5x0/":function(e,n,t){"use strict";t.r(n);var a=t("q1tI"),o=t.n(a),r=t("A2+M"),c=t("8V83");n.default=function(e){var n=e.pageContext,t=e.location;return o.a.createElement(c.a,null,o.a.createElement(r.MDXRenderer,{location:t},n.body))}}}]);
+//# sourceMappingURL=component---node-modules-gatsby-theme-musician-src-templates-mdx-page-js-cbbe9b902d23831d01d3.js.map

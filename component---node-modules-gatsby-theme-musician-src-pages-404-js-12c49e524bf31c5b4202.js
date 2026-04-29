@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[5],{JB8h:function(e,t,a){"use strict";a.r(t);var n=a("q1tI"),l=a.n(n),c=a("Wbzz"),u=a("txSG"),o=a("aq6d"),r=a("D4+t");t.default=function(){return l.a.createElement(o.a,null,l.a.createElement(r.a,{pageTitle:"Page Not Found"}),l.a.createElement(u.b,null,l.a.createElement(u.c.h1,null,"Page Not Found :("),l.a.createElement(u.c.p,null,l.a.createElement(c.a,{to:"/"},"Return Home"))))}}}]);
+//# sourceMappingURL=component---node-modules-gatsby-theme-musician-src-pages-404-js-12c49e524bf31c5b4202.js.map
