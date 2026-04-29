@@ -4,7 +4,7 @@ navigation:
   - text: Trending
     url: "#releases"
   - text: Global Leaderboard
-    url: "#releases"
+    url: "/leaderboard/"
   - text: About
     url: "../about/"
   - text: Contact
