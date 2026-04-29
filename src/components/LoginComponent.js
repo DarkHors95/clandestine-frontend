@@ -62,8 +62,9 @@ const LoginComponent = () => {
       <form onSubmit={handleSubmit}>
         {error && <div className="auth-error">{error}</div>}
         <div className="form-group">
-          <label>Email</label>
+          <label htmlFor="auth-email">Email</label>
           <input
+            id="auth-email"
             type="email"
             className="form-control"
             placeholder="Email"
@@ -73,8 +74,9 @@ const LoginComponent = () => {
           />
         </div>
         <div className="form-group">
-          <label>Password</label>
+          <label htmlFor="auth-password">Password</label>
           <input
+            id="auth-password"
             type="password"
             className="form-control"
             placeholder="Password"
