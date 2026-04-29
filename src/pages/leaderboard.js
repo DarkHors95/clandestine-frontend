@@ -44,17 +44,16 @@ function RankBadge({ rank }) {
 
 const LeaderboardPage = ({ location }) => {
   const [entries, setEntries] = useState(MOCK_DATA)
-  const [loading, setLoading] = useState(true)
   const [period, setPeriod] = useState('week')
   const maxScore = Math.max(...entries.map(e => e.score))
 
   useEffect(() => {
-    setLoading(true)
-    fetch(`${API}/leaderboard?period=${period}`)
+    const controller = new AbortController()
+    fetch(`${API}/leaderboard?period=${period}`, { signal: controller.signal })
       .then(r => r.json())
       .then(data => { if (Array.isArray(data) && data.length) setEntries(data) })
       .catch(() => {})
-      .finally(() => setLoading(false))
+    return () => controller.abort()
   }, [period])
 
   return (
@@ -83,10 +82,7 @@ const LeaderboardPage = ({ location }) => {
           ))}
         </div>
 
-        {loading ? (
-          <p sx={{ color: 'muted' }}>Loading...</p>
-        ) : (
-          <div sx={{ display: 'flex', flexDirection: 'column', gap: 3 }}>
+        <div sx={{ display: 'flex', flexDirection: 'column', gap: 3 }}>
             {entries.map((entry, i) => (
               <div
                 key={i}
@@ -126,10 +122,9 @@ const LeaderboardPage = ({ location }) => {
               </div>
             ))}
           </div>
-        )}
 
         <p sx={{ mt: 4, fontSize: 0, color: 'muted' }}>
-          {loading ? '' : 'Showing mock data — connect the backend to see live scores.'}
+          Showing mock data — connect the backend to see live scores.
         </p>
       </Container>
     </Layout>
